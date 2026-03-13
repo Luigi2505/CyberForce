@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background: #000000;
+    background: linear-gradient(180deg, rgb(12, 12, 12) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.top-side{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    /*Dimensoes*/
+    width: 100%;
+    height: 11vh;
+
+    background: rgb(32, 32, 32);
+    background: linear-gradient(180deg, rgb(32, 32, 32) 0%, rgb(15, 15, 15); 100%);
+
+    box-shadow: 0px 0px 12px 0px rgba(86, 0, 120, 0.8);
+    position: sticky;
+
+    display: flex;
+}
+
+.neon-line{
+    /*Dimensoes*/
+    width: 100%;
+    height: 3px;
+
+    /*Efeito Led*/
+    background: #560078;
+    background: linear-gradient(43deg, rgba(86, 0, 120, 1) 20%, rgba(20, 111, 181, 1) 74%);
+    box-shadow: 0px 0px 12px 0px rgba(86, 0, 120, 0.8);
+    
+}
+
